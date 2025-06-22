@@ -243,3 +243,21 @@ footer { background-color: var(--background-light-dark); padding: 3rem 5% 1rem; 
         left: 20px;
     }
 }
+/* ============================================================= */
+/* AJUSTE FINAL PARA CELULAR (ESPAÇO MÍNIMO)                    */
+/* ============================================================= */
+
+@media (max-width: 768px) {
+
+    /* Diminuindo o espaço para o MÍNIMO acima do botão no celular */
+
+    #partnership-hero .cta-button {
+        margin-top: 0.25rem; /* <<-- NOVO VALOR, BEM PEQUENO. */
+    }
+
+    /* O espaço abaixo continua o mesmo. */
+    #partnership-hero .hero-content {
+        margin-bottom: 2rem; 
+    }
+}
+
